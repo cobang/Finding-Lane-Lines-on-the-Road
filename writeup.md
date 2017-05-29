@@ -2,10 +2,10 @@
 
 [//]: # (Image References)
 
-[image1]: ./test_images_output/gray_solidYellowCurve "Gray"
-[image2]: ./test_images_output/gray_blursolidYellowCurve "Gray Blur"
-[image3]: ./test_images_output/edges_solidYellowCurve "Edges"
-[image4]: ./test_images_output/masked_edges_solidYellowCurve "Masked Edges"
+[image1]: ./test_images_output/gray_solidYellowCurve.jpg "Gray"
+[image2]: ./test_images_output/gray_blursolidYellowCurve.jpg "Gray Blur"
+[image3]: ./test_images_output/edges_solidYellowCurve.jpg "Edges"
+[image4]: ./test_images_output/masked_edges_solidYellowCurve.jpg "Masked Edges"
 [image5]: ./test_images_output/result_solidYellowCurve.jpg "Result"
 
 ---
@@ -31,7 +31,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 ![Result][image5]
 
 
-### 2. Potential shortcomings with my current pipeline
+### 2. Potential shortcomings
 
 
 One potential shortcoming would be what when there is an object or another shape on the road, the accuracy tends to decrease. 
@@ -39,7 +39,7 @@ One potential shortcoming would be what when there is an object or another shape
 According to conditions of ligth and color of road, lines may be misleading or missing.
 
 
-### 3. Possible improvements to my pipeline
+### 3. Possible improvements
 
 A possible improvement would be detecting more robust, good filtered lines.
 

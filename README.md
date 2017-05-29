@@ -1,12 +1,14 @@
-#**Finding Lane Lines on the Road** 
+# **Finding Lane Lines on the Road** 
 
 [//]: # (Image References)
 
-[image1]: ./test_images_output/gray_solidYellowCurve "Gray"
-[image2]: ./test_images_output/gray_blursolidYellowCurve "Gray Blur"
-[image3]: ./test_images_output/edges_solidYellowCurve "Edges"
-[image4]: ./test_images_output/masked_edges_solidYellowCurve "Masked Edges"
+[image1]: ./test_images_output/gray_solidYellowCurve.jpg "Gray"
+[image2]: ./test_images_output/gray_blursolidYellowCurve.jpg "Gray Blur"
+[image3]: ./test_images_output/edges_solidYellowCurve.jpg "Edges"
+[image4]: ./test_images_output/masked_edges_solidYellowCurve.jpg "Masked Edges"
 [image5]: ./test_images_output/result_solidYellowCurve.jpg "Result"
+
+### 1. Pipeline
 
 * I converted the images to grayscale
 * I reduced the noise by using Gaussian Blur. 
